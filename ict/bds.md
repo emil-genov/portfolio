@@ -1,4 +1,4 @@
-## [Institute of Computer Technology](index.md) / Bulgarian Documents of Identity
+## [Projects](../index.md)/[Institute of Computer Technology](index.md)/Bulgarian Documents of Identity
 
 Large scale project for gathering data, issuing, management and data retrieval for Bulgarian documents of identity (Id card, passport, drivers licence). 
 
