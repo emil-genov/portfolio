@@ -14,21 +14,32 @@
   </head>
   <body>
 
-{% capture md %}
-## [Projects](../index.html)/{{page.employer}}
-{% endcapture %}
-{{ md | markdownify }}
+    <h2>
+      <a href="../index.html">Projects</a>//{{page.employer}}
+    </h2>
 
-      {{ content }}
+    {{ content }}
 
-{% capture md %}
-|Projects|Time span|
-|-------|-|{% assign pages = site.pages | sort: 'id' | reverse %}
-{% for current_page in pages %} {% if current_page.employer == page.employer and current_page.layout == "project" %}  |[{{current_page.project}}]({{ site.baseurl }}{{current_page.url}})|{{current_page.timespan}}|
-{% endif %}{% endfor %}
-{% endcapture %}
-{{ md | markdownify }}
-
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Time frame</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign pages = site.pages | sort: 'id' | reverse %}
+        {% for current_page in pages %}
+          {% if current_page.employer == page.employer and current_page.layout == "project" %}
+            <tr>
+              <td><a href="{{ site.baseurl }}{{current_page.url}}">{{current_page.project}}</a></td>
+              <td>{{current_page.timespan}}</td>
+            </tr>
+            {% assign header =  current_page.employer-code %}
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
 
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>

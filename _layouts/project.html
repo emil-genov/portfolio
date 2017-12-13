@@ -14,12 +14,11 @@
   </head>
   <body>
 
-{% capture md %}
-## [Projects](../index.md)/[{{page.employer}}](index.html)/{{page.project}}
-{% endcapture %}
-      {{ md | markdownify }}
+    <h2>
+      <a href="../index.html">Projects</a>/<a href="index.html">{{page.employer}}</a>/{{page.project}}
+    </h2>
 
-      {{ content }}
+    {{ content }}
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
 </html>
