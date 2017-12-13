@@ -30,7 +30,7 @@
           {% if current_page.layout == "project" %}
             <tr>
               <td>{% if current_page.employer-code != header %}<a href="{{current_page.employer-code}}/">{{current_page.employer}}</a>{% endif %}</td>
-              <td><a href="/{{current_page.url}}">{{current_page.project}}</a></td>
+              <td><a href="{{ site.baseurl }}{{current_page.url}}">{{current_page.project}}</a></td>
               <td>{{current_page.timespan}}</td>
             </tr>
             {% assign header =  current_page.employer-code %}

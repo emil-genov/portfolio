@@ -24,7 +24,7 @@
 {% capture md %}
 |Projects|Time span|
 |-------|-|{% assign pages = site.pages | sort: 'id' | reverse %}
-{% for current_page in pages %} {% if current_page.employer == page.employer and current_page.layout == "project" %}  |[{{current_page.project}}]({{current_page.url}})|{{current_page.timespan}}|
+{% for current_page in pages %} {% if current_page.employer == page.employer and current_page.layout == "project" %}  |[{{current_page.project}}]({{ site.baseurl }}{{current_page.url}})|{{current_page.timespan}}|
 {% endif %}{% endfor %}
 {% endcapture %}
 {{ md | markdownify }}
