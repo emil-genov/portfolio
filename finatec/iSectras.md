@@ -1,14 +1,19 @@
 ---
-tags: [informix, power-builder]
-employer-code: ict
-employer: Institute of Computer Technology
-project: Bulgarian Identity Documents
+tags: [java, hibernate, jsp, struts, oracle-db, ibm-db2, javascript, dhtml, ajax, xml, soap-rpc]
+employer-code: finatec
+employer: FINATEC AG
+project: iSectras
 layout: project
-timespan: Jun 1999 - July 2000
-id: 3
+timespan: Aug 2000 - Jun 2006
+id: 4
 ---
 
-With Bulgaria entering European Union, existing identity documents (id cards, passports, drivers licences and so on) have to be issued according to European standards. This massive undertaking was also used in order to create a central distributed database of identifying data for all Bulgarian citizens.  
+Intranet based enterprise scale, security trading and transaction settlement
+system. Automates all operations in bank concerning trade of securities.
+Connects to DeutcheBorse and WM to get all data about securities issued or
+updated. Does general ledger of transactions done. Supports a lot of alarms,
+notifications and report to assist trading. It’s a port of existing cobol system –
+SECTRAS. It’s a main product of Finatec and has a new versions twice a year.
 
 #### Consisted of
 * Gathering application for issuing of documents data. All parts of process are covered and automatised, paper data OCR, photos and fingerprint scanning and biometric data encoding
@@ -26,5 +31,11 @@ With Bulgaria entering European Union, existing identity documents (id cards, pa
 **Time span:**  {{page.timespan}}
 
 ### Technologies used
-* Informix Universal DB
-* PowerBuilder 5.0
+* Java
+* Hibernate
+* JSP
+* Struts,
+* Oracle DB,
+* IBM DB2
+* Ajax, JavaScript and DHTML
+* XML and Soap­RPC
