@@ -4,7 +4,7 @@ employer-code: industria
 employer: Industria Inc
 project: Order Management
 layout: project
-timespan: Jun 2006 - Apr 2009
+timespan: Jun 2006 - Apr 2007
 id: 7
 ---
 
