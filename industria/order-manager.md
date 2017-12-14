@@ -1,32 +1,46 @@
 ---
-tags: [java, hibernate, jsp, struts, oracle-db, ibm-db2, javascript, dhtml, ajax, xml, soap-rpc]
+tags: [java, hibernate, spring, xfire, ossj, salesforce, bpel, jbpm, jpdl, jmx, jboss, junit, jmock, log4j]
 employer-code: industria
 employer: Industria Inc
 project: Order Management
 layout: project
-timespan: Aug 2000 - Jun 2006
-id: 6
+timespan: Jun 2006 - Apr 2009
+id: 7
 ---
 
-![iSectras](iSectras.jpg){:style="float: right; padding-left: 10px"} [iSectras](https://www.cpb-software.com/banking/enterprise-software-solutions/abgeltungsteuer-end-to-end/) is an intranet based enterprise scale, security trading and transaction settlement system, used in TOP10 of the banks in Germany. Automates all operations concerning trade of securities. Connects to [Deutche-Borse](http://deutsche-boerse.com/dbg-en/) and [WM](https://www.wmdaten.de/index.php?mid=20) to get all data about issued or updated securities. Does general ledger of transactions done. Supports a lot of alarms,
-notifications and report to assist trading. It’s a port of existing cobol system – SECTRAS. It’s a main product of Finatec AG and has a new versions twice a year.
+[Magnet Entertainment](https://www.magnet.ie/residential/) is joint­-venture triple play FttH (Fiber to the home) operator in Ireland. It’s entire operation is automated through OSS(Operations Support System) called BOSS. **Order Manager** is the first step of BOSS.
+* Client orders are stored into SalesForce and retrieved using SalesForce Soap API.
+* Orders are then split into separate manual or automatic steps:
+    * Contract signing
+    * Verification of availability
+    * Automatic provision tasks (Fiber cable provisioning, network setup, set-top box configuration)
+    * Delivery tasks (set tup-box, manuals, so on)
+    * VOD and IPTV configuration
+* Tracking of different steps with alarms for different kinds of deadlines
+* Reporting a state of any order
+* Client complaints tracking System
 
 #### Highlights  
-* Ported from Cobol legacy system
-* Using advanced futures of ORACLE DB, running on Sun Solaris
-* User friendly interface
-* New version release twice a year
+* Innovative integration with SalesForce through their API, being one of the first beta testers of the API
+* Using JAX-WS and SOAP web-services orchestrated together through BPEL with Microsoft BizTalk server and JBoss BPMN engine
+* Automatic end-to-end process of provisions
+* Tracking of manual tasks
 
 ### Info
-**Role:** Software analyst / developer  
+**Role:** Software architect / developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used
 * Java
-* Hibernate
-* JSP
-* Struts,
-* Oracle DB,
-* IBM DB2
-* Ajax, JavaScript and DHTML
-* XML and Soap­RPC
+* Hibernate and MySQL
+* Spring framework
+* XFire webservice API
+* TMForum OSS/J
+* SalesForce API
+* BPEL
+* Microsoft BizTalk
+* jBPM/jPDL
+* JMX
+* JBoss application stack
+* JUnit and JMock
+* Log4J
