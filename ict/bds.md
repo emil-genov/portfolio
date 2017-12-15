@@ -4,7 +4,7 @@ employer-code: ict
 employer: Institute of Computer Technology
 project: Bulgarian Identity Documents
 layout: project
-timespan: Jun 1999 - July 2000
+timespan: Jun 1999 - Jul 2000
 id: 3
 ---
 
