@@ -4,7 +4,7 @@ employer-code: industria
 employer: Industria Inc
 project: NOVA Multimedia portal
 layout: project
-timespan: Apr 2007 - Apr 2009
+timespan: Feb 2007 - Aug 2008
 id: 9
 ---
 [NOVA](https://www.nova.is/) is Iceland’s third mobile operator, first to offer 3G services in Iceland.  Multimedia portal offers live IPTV television and VOD movies, and also downloading of ring tones and listening to radio.

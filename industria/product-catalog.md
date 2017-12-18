@@ -4,7 +4,7 @@ employer-code: industria
 employer: Industria Inc
 project: Product Catalog
 layout: project
-timespan: Jun 2006 - Apr 2007
+timespan: Jun 2006 - Feb 2007
 id: 8
 ---
 
