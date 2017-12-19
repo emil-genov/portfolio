@@ -18,7 +18,7 @@ LISA client is Java Swing fat client, serving as an UI to LISA system server. In
 * A library of reusable components written and supported internally
 
 ### Info
-**Role:** Software architect / developer  
+**Role:** Software Architect / Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used

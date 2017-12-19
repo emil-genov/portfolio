@@ -17,7 +17,7 @@ id: 13
 * Uses JMS and webservice (JAX­WS and REST) to communicate with external systems for planning, data import and distributed transactions with external systems
 
 ### Info
-**Role:** Software architect / developer  
+**Role:** Software Architect / Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used

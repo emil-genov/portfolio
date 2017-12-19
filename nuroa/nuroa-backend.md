@@ -1,0 +1,22 @@
+---
+tags: [nio, netty, jms, jmx]
+employer-code: nuroa
+employer: Nuroa
+project: Nuroa Backend
+layout: project
+timespan: Apr 2010 - Jan 2011
+id: 16
+---
+Nuroa is an vertical search engine centred around property buy/sell, rent and vacation homes. Backend part of it, is responsible for crawling, parsing, transforming and summarising all data site operates on. It consumes huge documents (XML feed files of sizes > 2 GB), so it has to be really memory efficient and provide robust operation regardless of processor or I/O overloading.
+
+#### Highlights
+
+### Info
+**Role:** Software Architect / Senior Software Developer  
+**Time span:**  {{page.timespan}}
+
+### Technologies used
+* Java NIO
+* Jboss Netty
+* JMS
+* JMX

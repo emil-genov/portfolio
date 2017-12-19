@@ -21,7 +21,7 @@ Admin interface is used for creating and managing all ZIGNAL system objects:
 * Spring/JPA/ehcache for fast data handling
 
 ### Info
-**Role:** Software developer  
+**Role:** Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used

@@ -18,7 +18,7 @@ ZIGNAL client is user interface to the ZIGNAL system presented on client’s set
 * Using DWR (Direct Web Remoting) for server calls
 
 ### Info
-**Role:** Software developer  
+**Role:** Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used

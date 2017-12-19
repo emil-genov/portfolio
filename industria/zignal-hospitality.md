@@ -15,7 +15,7 @@ Hospitality Extension is an extension to ZIGNAL server providing hotel/hospital 
 check­-in/out of room, moving to different room, ordering mini­bar and room service items and also hotel information pages
 
 ### Info
-**Role:** Software developer  
+**Role:** Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used

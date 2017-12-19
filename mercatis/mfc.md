@@ -17,7 +17,7 @@ MFC are made by different vendors and also each high rack is highly unique in it
 * API that accommodates MFCs from different manufacturers.
 
 ### Info
-**Role:** Software architect / developer  
+**Role:** Software Architect / Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used

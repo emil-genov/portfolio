@@ -17,7 +17,7 @@ id: 9
 * Ring tones can be send as MMS or as downloads
 
 ### Info
-**Role:** Software architect / developer  
+**Role:** Software Architect / Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used

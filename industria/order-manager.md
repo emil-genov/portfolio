@@ -27,7 +27,7 @@ id: 7
 * Tracking of manual tasks
 
 ### Info
-**Role:** Software architect / developer  
+**Role:** Software Architect / Senior Software Developer  
 **Time span:**  {{page.timespan}}
 
 ### Technologies used
