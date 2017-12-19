@@ -2,8 +2,9 @@
 employer-code: industria
 employer: Industria Inc
 layout: employer
+image-src: industria.jpg
 ---
-![Industria](industria.jpg){:style="float: right; padding-left: 10px"} Industria was a multinational company with a focus on fibre to the home solutions and systems integration.
+Industria was a multinational company with a focus on fibre to the home solutions and systems integration.
 
 ### Background
 Established in Reykjavík, Iceland in 2003, Industria offered consultancy and systems integration services for fibre to the home and triple-play operators, installed broadband hardware and software, and offered consultancy services in the field of broadband and telephony.
