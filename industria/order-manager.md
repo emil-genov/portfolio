@@ -6,6 +6,8 @@ project: Order Management
 layout: project
 timespan: Jun 2006 - Feb 2007
 id: 7
+role: Software Architect / Senior Software Developer
+excerpt: A system to manage customer's orders for service fullfilment in Magnet Entertainment triple play FttH (Fiber to the home) operator in Ireland.
 ---
 
 [Magnet Entertainment](https://www.magnet.ie/residential/) is joint­-venture triple play FttH (Fiber to the home) operator in Ireland. It’s entire operation is automated through OSS(Operations Support System) called BOSS. **Order Manager** is the first step of BOSS.
@@ -25,10 +27,6 @@ id: 7
 * Using JAX-WS and SOAP web-services orchestrated together through BPEL with Microsoft BizTalk server and JBoss BPMN engine
 * Automatic end-to-end process of provisions
 * Tracking of manual tasks
-
-### Info
-**Role:** Software Architect / Senior Software Developer  
-**Time span:**  {{page.timespan}}
 
 ### Technologies used
 * Java

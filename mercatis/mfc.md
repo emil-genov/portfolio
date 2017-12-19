@@ -6,6 +6,8 @@ project: MFC
 layout: project
 timespan: Mar 2010 - Jul 2010
 id: 15
+role: Senior Software Developer
+excerpt: Project that aims to create middle­ware between different MFCs (Material Flow Controller) and  store management systems
 ---
 
 MFCs (Material Flow Controller) are fully automated systems consisting of high racks, conveyor belts, automatic separation systems and all other sorts of logistics and transport technologies. It offers storage, indexing and retrieving of transport pallets.
@@ -15,10 +17,6 @@ MFC are made by different vendors and also each high rack is highly unique in it
 #### Highlights
 * Hardware abstraction of storage architecture
 * API that accommodates MFCs from different manufacturers.
-
-### Info
-**Role:** Software Architect / Senior Software Developer  
-**Time span:**  {{page.timespan}}
 
 ### Technologies used
 * Java NIO

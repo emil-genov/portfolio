@@ -6,6 +6,8 @@ project: NOVA Multimedia portal
 layout: project
 timespan: Feb 2007 - Aug 2008
 id: 9
+role: Software Architect / Senior Software Developer
+excerpt: NOVA is Iceland’s third mobile operator, first to offer 3G services in Iceland.  Multimedia portal offers live IPTV television and VOD movies, and also downloading of ring tones and listening to radio.
 ---
 [NOVA](https://www.nova.is/) is Iceland’s third mobile operator, first to offer 3G services in Iceland.  Multimedia portal offers live IPTV television and VOD movies, and also downloading of ring tones and listening to radio.
 
@@ -15,10 +17,6 @@ id: 9
 * Multiple content servers support for failsafe.
 * Supports different types of SMSC gateways.
 * Ring tones can be send as MMS or as downloads
-
-### Info
-**Role:** Software Architect / Senior Software Developer  
-**Time span:**  {{page.timespan}}
 
 ### Technologies used
 * Java

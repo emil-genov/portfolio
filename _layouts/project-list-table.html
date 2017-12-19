@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+{% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h2>Projects</h2>
+
+      {{ content }}
+    <table>
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Position</th>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Tools</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign pages = site.pages | sort: 'id' | reverse %}
+        {% for current_page in pages %}
+          {% if current_page.layout == "project" %}
+            <tr>
+              <td style="vertical-align:top">{% if current_page.employer-code != header %}<a href="{{current_page.employer-code}}/">{{current_page.employer}}</a>{% endif %}</td>
+              <td style="vertical-align:top">{{ current_page.role }}</td>
+              <td style="vertical-align:top"><a href="{{ site.baseurl }}{{current_page.url}}">{{current_page.project}}</a></td>
+              <td style="vertical-align:top">{{ current_page.excerpt }}</td>
+              <td style="vertical-align:top">{{ current_page.tags | join: ', ' }}</td>
+            </tr>
+            {% assign header =  current_page.employer-code %}
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>

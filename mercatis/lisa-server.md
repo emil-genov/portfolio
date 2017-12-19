@@ -6,6 +6,8 @@ project: Lisa - Server
 layout: project
 timespan: Apr 2009 - Jan 2011
 id: 13
+role: Senior Software Developer
+excerpt: A fully automated logistics system controlling all activities in interconnected warehouses and stores of Muller GmBH. It covers all services from tracking incoming products, storage, retrieval on demand, logistical planning and all other store and transport related activities.
 ---
 
 [LISA is a fully automated logistics system](https://mercatis.com/web/homepage/lisa-logistik) controlling all activities in interconnected warehouses and stores of Muller GmBH. It covers all services from tracking incoming products, storage, retrieval on demand, logistical planning and all other store and transport related activities.
@@ -16,10 +18,6 @@ id: 13
 * Communicates with LISA client, by using remote invocation of EJBs
 * Uses JMS and webservice (JAX­WS and REST) to communicate with external systems for planning, data import and distributed transactions with external systems
 
-### Info
-**Role:** Software Architect / Senior Software Developer  
-**Time span:**  {{page.timespan}}
-
 ### Technologies used
 * Java
 * EJB3 stateless services
@@ -28,4 +26,4 @@ id: 13
 * JMX and JMX Jboss services
 * JAXB, JAX­-WS and JAX-­RS
 * jUnit and EasyMock
-* maven with bamboo continious delivery system
+* maven with bamboo continuous delivery system

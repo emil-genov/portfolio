@@ -6,6 +6,8 @@ project: Bulgarian Identity Documents
 layout: project
 timespan: Jun 1999 - Jul 2000
 id: 3
+excerpt: Large scale project for gathering data, issuing, management and data retrieval for Bulgarian documents of identity (Id card, passport, drivers licence).
+role: Software analyst / developer
 ---
 
 With Bulgaria entering European Union, existing identity documents (id cards, passports, drivers licences and so on) have to be issued according to European standards. This massive undertaking was also used in order to create a central distributed database of identifying data for all Bulgarian citizens.  
@@ -20,10 +22,6 @@ With Bulgaria entering European Union, existing identity documents (id cards, pa
 * Operating on huge amount of data, was using distributed Informix SQL server with more than 50 regional centers around the country
 * Very important strategical project and a step stone to next generation software used in administration
 * With a strict deadline and delivered on time and working 100%
-
-### Info
-**Role:** Software analyst / developer  
-**Time span:**  {{page.timespan}}
 
 ### Technologies used
 * Informix Universal DB

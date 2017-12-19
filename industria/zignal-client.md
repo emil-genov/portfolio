@@ -6,6 +6,8 @@ project: ZIGNAL Client
 layout: project
 timespan: Aug 2008 - Apr 2009
 id: 12
+role: Senior Software Developer
+excerpt: ZIGNAL client is user interface to the ZIGNAL system presented on client’s set­-top boxes. It’s rendered in SVG, to support vector based graphics for speed and extended visual effects and animations
 ---
 ZIGNAL server is an IPTV middleware used in several triple play operators in UK, Ireland and USA, some of the US university campus networks, and in hotels chains. Provides TV and radio programs with full Electronic Program Guide (EPG), Video on demand (VoD) with advanced movie catalogue and search, applications and games on demand, and various information ­such as weather and traffic data.
 
@@ -16,10 +18,6 @@ ZIGNAL client is user interface to the ZIGNAL system presented on client’s set
 * Programming SVG is more complicated to program to, but HTML rendering is unacceptably slow on that generation of HD STB
 * By having reusable set of SVG components (using prototype.js), speed of development and testing is improved significantly
 * Using DWR (Direct Web Remoting) for server calls
-
-### Info
-**Role:** Senior Software Developer  
-**Time span:**  {{page.timespan}}
 
 ### Technologies used
 * DHTML
