@@ -1,3 +1,1 @@
-## Welcome to my Portfolio
-
-{% include_relative projects-table.md %}
+## [Welcome to my Portfolio](projects-table.md}
